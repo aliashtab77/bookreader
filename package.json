@@ -115,7 +115,7 @@
     "postinstall": "node scripts/patch-nan.js && electron-builder install-app-deps",
     "rebuild": "electron-rebuild -f -w better-sqlite3",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://reader.starkteam.ir",
   "build": {
